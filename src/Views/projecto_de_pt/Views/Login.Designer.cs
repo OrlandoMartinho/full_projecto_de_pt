@@ -1,6 +1,6 @@
 ﻿namespace projecto_de_pt
 {
-    partial class Form1
+    partial class Login
     {
         /// <summary>
         /// Required designer variable.
@@ -40,6 +40,7 @@
             this.Entrar = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -108,6 +109,7 @@
             // 
             this.Entrar.BorderRadius = 6;
             this.Entrar.CheckedState.Parent = this.Entrar;
+            this.Entrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Entrar.CustomImages.Parent = this.Entrar;
             this.Entrar.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(220)))), ((int)(((byte)(15)))));
             this.Entrar.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(220)))), ((int)(((byte)(15)))));
@@ -120,6 +122,7 @@
             this.Entrar.Size = new System.Drawing.Size(253, 42);
             this.Entrar.TabIndex = 4;
             this.Entrar.Text = "Entrar";
+            this.Entrar.Click += new System.EventHandler(this.Entrar_Click);
             // 
             // guna2TextBox2
             // 
@@ -167,26 +170,40 @@
             this.guna2TextBox1.Size = new System.Drawing.Size(253, 36);
             this.guna2TextBox1.TabIndex = 2;
             // 
-            // Form1
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label2.ForeColor = System.Drawing.Color.DarkGray;
+            this.label2.Location = new System.Drawing.Point(110, 388);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(105, 13);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Esqueceu a senha?!";
+            // 
+            // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(671, 439);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.guna2TextBox2);
             this.Controls.Add(this.Entrar);
             this.Controls.Add(this.guna2TextBox1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.guna2Panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form1";
+            this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Login_Load);
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -203,6 +220,7 @@
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
         private Guna.UI2.WinForms.Guna2GradientButton Entrar;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
+        private System.Windows.Forms.Label label2;
     }
 }
 
