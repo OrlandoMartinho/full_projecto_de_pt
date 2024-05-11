@@ -11,3 +11,12 @@ C:\Users\Orlando Saiombo\Documents\Projecto de Pt\src\Views\projecto_de_pt\bin\D
 C:\Users\Orlando Saiombo\Documents\Projecto de Pt\src\Views\projecto_de_pt\obj\Debug\projecto_de_pt.Login.resources
 C:\Users\Orlando Saiombo\Documents\Projecto de Pt\src\Views\projecto_de_pt\obj\Debug\projecto_de_pt.Views.Main.resources
 C:\Users\Orlando Saiombo\Documents\Projecto de Pt\src\Views\projecto_de_pt\obj\Debug\projecto_de_pt.Views.Produtos.resources
+C:\Users\Orlando Saiombo\Documents\Projecto de Pt\src\Views\projecto_de_pt\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Orlando Saiombo\Documents\Projecto de Pt\src\Views\projecto_de_pt\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\Orlando Saiombo\Documents\Projecto de Pt\src\Views\projecto_de_pt\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Orlando Saiombo\Documents\Projecto de Pt\src\Views\projecto_de_pt\obj\Debug\projecto_de_pt.Views.CadastrarProduto.resources
+C:\Users\Orlando Saiombo\Documents\Projecto de Pt\src\Views\projecto_de_pt\obj\Debug\projecto_de_pt.Views.Notificacoes.resources
+C:\Users\Orlando Saiombo\Documents\Projecto de Pt\src\Views\projecto_de_pt\obj\Debug\projecto_de_pt.Views.Fornecedores.resources
+C:\Users\Orlando Saiombo\Documents\Projecto de Pt\src\Views\projecto_de_pt\obj\Debug\projecto_de_pt.Views.CadastrarFornecedor.resources
+C:\Users\Orlando Saiombo\Documents\Projecto de Pt\src\Views\projecto_de_pt\obj\Debug\projecto_de_pt.Views.Perfil.resources
+C:\Users\Orlando Saiombo\Documents\Projecto de Pt\src\Views\projecto_de_pt\obj\Debug\projecto_de_pt.Views.EditarPerfil.resources
